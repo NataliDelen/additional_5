@@ -18,6 +18,7 @@ module.exports = function check(str, bracketsConfig) {
 	  half--;
   }
   
+  
   if (half == 0) return true;
   if (half != 0) return false;
 }
